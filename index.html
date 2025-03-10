@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
         
         :root {
             --primary-color: #3a86ff;
-            --secondary-color: #ff7aa2; /* 更改为猫咪粉色 */
+            --secondary-color: #ff7aa2;
             --accent-color: #00b4d8;
             --dark-color: #0a192f;
             --darker-color: #020c1b;
@@ -1512,7 +1512,7 @@
             </div>
             <div class="logo-animation">
                 <h1>LEO LI</h1>
-                <div class="tagline" data-translate="entry-tagline">计算机科学家 & 机器学习工程师</div>
+                <div class="tagline">Computer Scientist & Machine Learning Engineer</div>
                 <div class="loading-bar">
                     <div class="loading-progress"></div>
                 </div>
@@ -1554,13 +1554,13 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <div class="hero-greeting" data-translate="hero-greeting">你好，我是</div>
-                    <h1 class="hero-name" data-translate="hero-name">李立鑫 (Leo Li)</h1>
+                    <h1 class="hero-name" data-translate="hero-name">李利鑫 (Leo Li)</h1>
                     <h2 class="hero-title" data-translate="hero-title">计算机科学家 & 机器学习工程师</h2>
                     <p class="hero-description" data-translate="hero-description">我是一名专注于人工智能和机器学习的计算机科学家。在LLMs、NLP和分布式系统等领域拥有丰富经验，致力于创造智能、高效的技术解决方案。</p>
                     <a href="#contact" class="hero-cta" data-translate="hero-cta">联系我</a>
                     <div class="hero-social">
                         <a href="https://www.linkedin.com/in/lixinleo/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/LixinLi15678" target="_blank"><i class="fab fa-github"></i></a>
                         <a href="mailto:llx1012leo@gmail.com"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
@@ -1577,7 +1577,7 @@
             </div>
             <div class="about-content">
                 <div class="about-image">
-                    <img src="/api/placeholder/400/400" alt="Leo Li Profile Image">
+                    <img src="/imgs/profile.jpg">
                 </div>
                 <div class="about-text">
                     <p data-translate="about-text-1">我是一名充满激情的计算机科学家和机器学习工程师，目前在宾夕法尼亚大学攻读计算机与信息科学硕士学位。我在Franklin and Marshall College获得了计算机科学和数学双学士学位，并以优异的成绩毕业（GPA: 3.92/4.0，Summa Cum Laude）。</p>
@@ -1585,7 +1585,7 @@
                     <p data-translate="about-text-3">我喜欢解决复杂的技术挑战，通过创新思维和扎实的编程技能，将理论应用于实际问题。我期待与志同道合的专业人士合作，共同推动技术的边界。</p>
                     <div class="about-infos">
                         <div class="about-info-item">
-                            <p><span data-translate="about-name">姓名：</span> <span data-translate="your-name">李立鑫 (Leo Li)</span></p>
+                            <p><span data-translate="about-name">姓名：</span> <span data-translate="your-name">李利鑫 (Leo Li)</span></p>
                         </div>
                         <div class="about-info-item">
                             <p><span data-translate="about-education">教育：</span> <span data-translate="your-education">宾夕法尼亚大学</span></p>
@@ -1868,8 +1868,7 @@
                             <span class="project-tag">JavaScript</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link project-demo" data-translate="view-demo">玩游戏</a>
-                            <a href="#" class="project-link project-code" data-translate="view-code">查看代码</a>
+                            <a href="games/2048.html" class="project-link project-demo" data-translate="view-demo">玩游戏</a>
                         </div>
                     </div>
                 </div>
@@ -1886,7 +1885,6 @@
                             <span class="project-tag">CSS</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link project-demo" data-translate="play-game">玩游戏</a>
                             <a href="" class="project-link project-code" data-translate="view-code">查看代码</a>
                         </div>
                     </div>
@@ -1975,7 +1973,7 @@
                     <p data-translate="footer-description">我是一名专注于人工智能和机器学习的计算机科学家，拥有在LLMs、NLP和分布式系统领域的丰富经验。</p>
                     <div class="footer-social">
                         <a href="https://www.linkedin.com/in/lixinleo/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/LixinLi15678" target="_blank"><i class="fab fa-github"></i></a>
                         <a href="mailto:llx1012leo@gmail.com"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
@@ -1993,7 +1991,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p data-translate="copyright">© 2025 李立鑫 (Leo Li). 保留所有权利。</p>
+                <p data-translate="copyright">© 2025 李利鑫 (Lixin Li). 保留所有权利。</p>
                 <div class="visitor-counter">
                     <span data-translate="visitor-counter">访问量：</span>
                     <span id="visitorCount" class="counter-number">1</span>
@@ -2164,22 +2162,29 @@
         // Skills Animation on Scroll
         const skillBars = document.querySelectorAll('.skill-progress');
         const observerOptions = {
-            threshold: 0.5
+            threshold: 0.1
         };
 
         const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.style.width = entry.target.style.width;
+                    // Get the width from the parent's span element (percentage text)
+                    const percentValue = entry.target.parentElement.querySelector('.skill-name span:last-child').textContent;
+                    entry.target.style.width = percentValue;
                     observer.unobserve(entry.target);
-                } else {
-                    entry.target.style.width = '0';
                 }
             });
         }, observerOptions);
 
         skillBars.forEach(bar => {
+            // Store the original width value
+            const parentElement = bar.parentElement.parentElement;
+            const percentText = parentElement.querySelector('.skill-name span:last-child').textContent;
+            
+            // Initially set width to 0 for animation
             bar.style.width = '0';
+            
+            // Observe the element
             observer.observe(bar);
         });
 
@@ -2196,7 +2201,7 @@
         // Language Switcher
         const languageSwitch = document.querySelector('.language-switch');
         const languageText = document.getElementById('language-text');
-        let currentLanguage = 'zh'; // Default is Chinese
+        let currentLanguage = localStorage.getItem('language') || 'en';
 
         const translations = {
             zh: {
@@ -2211,7 +2216,7 @@
                 'language': 'English',
                 'entry-tagline': '计算机科学家 & 机器学习工程师',
                 'hero-greeting': '你好，我是',
-                'hero-name': '李立鑫 (Leo Li)',
+                'hero-name': '李利鑫 (Leo Li)',
                 'hero-title': '计算机科学家 & 机器学习工程师',
                 'hero-description': '我是一名专注于人工智能和机器学习的计算机科学家。在LLMs、NLP和分布式系统等领域拥有丰富经验，致力于创造智能、高效的技术解决方案。',
                 'hero-cta': '联系我',
@@ -2221,7 +2226,7 @@
                 'about-text-2': '我专注于人工智能和机器学习领域，尤其是大型语言模型（LLMs）和自然语言处理（NLP）。在学术和项目实践中，我开发了多种创新解决方案，如BNFormer（增强LLM结构化文本生成的准确性）和高精度聊天机器人系统。',
                 'about-text-3': '我喜欢解决复杂的技术挑战，通过创新思维和扎实的编程技能，将理论应用于实际问题。我期待与志同道合的专业人士合作，共同推动技术的边界。',
                 'about-name': '姓名：',
-                'your-name': '李立鑫 (Leo Li)',
+                'your-name': '李利鑫 (Leo Li)',
                 'about-education': '教育：',
                 'your-education': '宾夕法尼亚大学',
                 'about-email': '邮箱：',
@@ -2287,7 +2292,7 @@
                 'send-message': '发送消息',
                 'footer-description': '我是一名专注于人工智能和机器学习的计算机科学家，拥有在LLMs、NLP和分布式系统领域的丰富经验。',
                 'quick-links': '快速链接',
-                'copyright': '© 2025 李立鑫 (Leo Li). 保留所有权利。',
+                'copyright': '© 2025 李利鑫 (Leo Li). 保留所有权利。',
                 'visitor-counter': '访问量：',
                 'form-success': '感谢您的留言！我会尽快回复您。'
             },
@@ -2388,7 +2393,7 @@
         function updateLanguage() {
             document.querySelectorAll('[data-translate]').forEach(element => {
                 const key = element.getAttribute('data-translate');
-                if (translations[currentLanguage][key]) {
+                if (translations[currentLanguage] && translations[currentLanguage][key]) {
                     if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
                         element.placeholder = translations[currentLanguage][key];
                     } else {
@@ -2396,12 +2401,11 @@
                     }
                 }
             });
-
             document.documentElement.lang = currentLanguage;
         }
-
         languageSwitch.addEventListener('click', () => {
-            currentLanguage = currentLanguage === 'zh' ? 'en' : 'zh';
+            currentLanguage = (currentLanguage === 'zh') ? 'en' : 'zh';
+            localStorage.setItem('language', currentLanguage);
             updateLanguage();
         });
 
