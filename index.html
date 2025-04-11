@@ -1497,6 +1497,7 @@
 </head>
 <body>
     <!-- Entry Animation -->
+    <!--
     <div class="entry-animation">
         <div class="animation-container">
             <div class="grid-overlay"></div>
@@ -1519,6 +1520,7 @@
             </div>
         </div>
     </div>
+    -->
 
     <!-- Header -->
     <header id="header">
@@ -2121,13 +2123,13 @@
             }
             
             // Hide animation after loading
-            setTimeout(() => {
-                const entryAnimation = document.querySelector('.entry-animation');
-                entryAnimation.classList.add('fade-out');
-                setTimeout(() => {
-                    entryAnimation.style.display = 'none';
-                }, 1000);
-            }, 5000);
+            // setTimeout(() => {
+            //     const entryAnimation = document.querySelector('.entry-animation');
+            //     entryAnimation.classList.add('fade-out');
+            //     setTimeout(() => {
+            //         entryAnimation.style.display = 'none';
+            //     }, 1000);
+            // }, 5000);
         });
 
         // Navigation Menu Toggle
